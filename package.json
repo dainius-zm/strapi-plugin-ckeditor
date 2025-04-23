@@ -1,21 +1,20 @@
 {
-  "name": "@_sh/strapi-plugin-ckeditor",
-  "version": "2.0.3",
-  "description": "Integrates CKEditor 5 into your Strapi project as a fully customizable custom field. (Unofficial integration)",
+  "name": "strapi-plugin-ckeditor",
+  "version": "2.0.4-custom",
+  "description": "Forked CKEditor 5 integration for Strapi from nshenderov",
   "private": false,
   "keywords": [
     "strapi",
     "ckeditor",
     "ckeditor5",
-    "ckeditor 5",
-    "wysiwyg",
     "rich text",
-    "editor"
+    "editor",
+    "wysiwyg"
   ],
   "strapi": {
     "name": "ckeditor5",
     "displayName": "CKEditor 5",
-    "description": "Integrates CKEditor 5 into your Strapi project as a fully customizable custom field. (Unofficial integration)",
+    "description": "Integrates CKEditor 5 into your Strapi project as a fully customizable custom field.",
     "kind": "plugin"
   },
   "files": [
@@ -68,15 +67,15 @@
     "@strapi/strapi": "^4.4.0"
   },
   "author": {
-    "name": "nshenderov"
+    "name": "Dainius"
   },
-  "homepage": "https://market.strapi.io/plugins/@_sh-strapi-plugin-ckeditor",
+  "homepage": "https://github.com/dainius-zm/strapi-plugin-ckeditor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nshenderov/strapi-plugin-ckeditor.git"
+    "url": "https://github.com/dainius-zm/strapi-plugin-ckeditor.git"
   },
   "scripts": {
-    "test": "echo \"Error: no tests specified\" && exit 1"
+    "test": "echo \"No tests yet\""
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
