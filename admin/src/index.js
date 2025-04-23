@@ -38,7 +38,7 @@ export default {
  
      app.customFields.register({
        name: "CKEditor",
-       type: "richtext",
+       type: "ckeditor",
        pluginId: pluginId,
        icon: CKEditorIcon,
        intlLabel: {

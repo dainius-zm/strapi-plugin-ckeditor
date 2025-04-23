@@ -6,6 +6,6 @@ module.exports = ({ strapi }) => {
   strapi.customFields.register({
     name: 'CKEditor',
     plugin: pluginId,
-    type: 'richtext'
+    type: 'ckeditor'
   })
 };
